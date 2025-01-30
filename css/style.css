@@ -107,10 +107,6 @@ header nav .rightPosition button:hover {
 	cursor: pointer;
 }
 
-.mainContent .image-presentation img {
-	width: 100%;
-}
-
 .first .MainContent-content button {
 	background-color: var(--violet);
 	color: white;
@@ -138,9 +134,9 @@ header nav .rightPosition button:hover {
 	transition: filter 0.5s;
 }
 
-.first .MainContent-content .image-small .small:hover {
-	/*filter: brightness(50%);*/
-}
+/*.first .MainContent-content .image-small .small:hover {
+	filter: brightness(50%);
+}*/
 
 .small:hover {
     scale: 1.1;
@@ -152,3 +148,64 @@ header nav .rightPosition button:hover {
 	width: 120px;
 }
 
+.imageContent img {
+	width: 100%;
+}
+
+.secondContent {
+	padding: 30px 5%;
+	display: flex;
+	align-items: center;
+	background-color: #13181d;
+}
+
+.pub {
+	color: var(--violet);
+}
+
+.secondContent h1 {
+	margin: 0;
+	font-size: 4vw;
+	width: 80%;
+}
+
+.secondContent button {
+	margin-top: 20px;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.secondContent .second-Content button {
+	background-color: inherit;
+	color: var(--violet);
+	border: 1px solid var(--violet);
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.secondContent .second-Content button:hover {
+	background-color: var(--violet);
+	color: white;
+}
+
+.imgNewCasque img{
+	width: 430px;
+}
+
+footer {
+	background: black;
+	padding: 30px 5%;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.headFooter {
+	color: var(--violet);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
